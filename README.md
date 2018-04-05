@@ -4,7 +4,7 @@ My Shell config
 
 ```
 #make a temp file
-git@github.com:RiweiChen/env.git __temp__ & mv __temp__/* . & rm -rf __temp__
+git clone https://github.com/RiweiChen/env.git __temp__ && mv __temp__/* __temp__/.* . && rm -rf __temp__
 
 ```
 
@@ -30,5 +30,7 @@ chsh -s /bin/zsh
 ## git
 
 ## deploy
-
+```
+ansible
+```
 
