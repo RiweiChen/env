@@ -1,0 +1,12 @@
+#ignore everything
+*
+
+# But not these files...
+!*.vimrc
+!*.vim
+!*.bashrc
+!.gitignore
+!*.tmux.conf
+!*.zshrc
+!README.md
+# etc...
