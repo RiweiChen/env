@@ -1,5 +1,13 @@
 My Shell config
 ======
+## init
+
+```
+#make a temp file
+git@github.com:RiweiChen/env.git __temp__ & mv __temp__/* . & rm -rf __temp__
+
+```
+
 
 ## install
 ```
@@ -12,6 +20,8 @@ apt-get install git
 
 ## zsh
 ```
+
+#change default to zsh
 chsh -s /bin/zsh
 ```
 
